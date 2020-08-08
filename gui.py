@@ -57,7 +57,7 @@ def signupFrame():
     # Entry field
     username = Entry(sf,width=26,fg=placeholderFg)
     username.insert(0,"Username  ")
-    guiThread=Thread(target=receiv(username))
+   
     placeHolder(username,"Username  ")
     
    
